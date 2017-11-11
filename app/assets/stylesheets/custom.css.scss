@@ -1,0 +1,44 @@
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+#logo {
+  margin-bottom: 10px;
+  float: left;
+  height: 80px;
+  width: 50%;
+
+  font-size: 3em;
+  padding-top: 6px;
+  text-transform: uppercase;
+  font-weight: bold;
+
+}
+
+body{
+  padding-top: 180px;
+}
+
+.navitem{
+
+  margin-top: 20px;
+}
+
+.jumbotronbody{
+  height: 500px;
+
+}
+
+.jumbotronhead{
+  margin-top: 80px;
+margin-left: 500px;
+}
+
+.jumbotronhead h1{
+  margin-left: 100x;
+}
