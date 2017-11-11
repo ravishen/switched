@@ -20,7 +20,7 @@
 
         </div>
       <div class="navitem col-md-1">
-       <%= link_to "Log In", "", class:"btn btn-primary btn-lg btn-block btn-huge", id: "login" %>
+       <%= link_to "Log In",  "/users/sign_in" , class:"btn btn-primary btn-lg btn-block btn-huge", id: "login" %>
       </div>
         <div class="navitem col-md-1">
       <%= link_to "HOME", "/home", class:"btn btn-primary btn-lg btn-block btn-huge", id: "home" %>
@@ -34,6 +34,13 @@
       </div>
       </div>
   </header>
+
+  <% if notice %>
+      <p class="alert alert-success"><%= notice %></p>
+  <% end %>
+  <% if alert %>
+      <p class="alert alert-danger"><%= alert %></p>
+  <% end %>
     <%= yield %>
 
   <footer>
