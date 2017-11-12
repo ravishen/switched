@@ -10,6 +10,8 @@ class ChecksController < ApplicationController
   # GET /checks/1
   # GET /checks/1.json
   def show
+    response.headers['HEADER NAME'] = 'HEADER VALUE'
+
     response.headers['Access-Control-Allow-Origin'] = '*'
   end
 
