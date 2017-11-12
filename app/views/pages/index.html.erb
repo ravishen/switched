@@ -2,10 +2,11 @@
   <% if user_signed_in? %>
 
 Hello <%= current_user.email%>
-
+      <%= current_user.id%>
 </h1>
 <%if @checks.nil?%>
   <%= link_to "proceed", checks_path(current_user.id)%>
+
 <%end%>
 
   <form>

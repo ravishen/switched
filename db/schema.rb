@@ -10,7 +10,49 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20171111103426) do
+ActiveRecord::Schema.define(version: 20171112093340) do
+
+  create_table "checks", force: :cascade do |t|
+    t.integer "pin1"
+    t.integer "pin2"
+    t.integer "pin3"
+    t.integer "pin4"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "controls", force: :cascade do |t|
+    t.string "title"
+    t.boolean "pin1"
+    t.boolean "pin2"
+    t.boolean "pin3"
+    t.boolean "pin4"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "operators", force: :cascade do |t|
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "switches", force: :cascade do |t|
+    t.string "pin1"
+    t.string "pin2"
+    t.string "pin3"
+    t.string "pin4"
+    t.boolean "p1value"
+    t.boolean "p2value"
+    t.boolean "p3value"
+    t.boolean "p4value"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "triggers", force: :cascade do |t|
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
 
   create_table "users", force: :cascade do |t|
     t.string "email", default: "", null: false

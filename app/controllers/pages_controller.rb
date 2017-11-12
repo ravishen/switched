@@ -3,7 +3,7 @@ class PagesController < ApplicationController
   end
 
   def index
-    if user_signed_in?&&Check.nil?
+    if user_signed_in?&&Check.all.size==current_user.id
     @checks=Check.find(current_user.id)
     @users=User.all
     else
