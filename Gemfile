@@ -53,7 +53,7 @@ group :production do
   gem 'rails_12factor'
 end
 gem 'devise'
-
+gem 'simple_form', '~> 3.5'
 
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> anywhere in the code.

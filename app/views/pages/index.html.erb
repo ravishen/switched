@@ -2,5 +2,117 @@
   <% if user_signed_in? %>
 
 Hello <%= current_user.email%>
-  <%end%>
+
 </h1>
+<%if @checks.nil?%>
+  <%= link_to "proceed", checks_path(current_user.id)%>
+<%end%>
+
+  <form>
+    <ul>
+
+      <li>
+        Pin1:
+        <%if params[:pin1].to_s.eql?"on"%>
+        <input type="radio" name="pin1" value="on" checked> on
+        <input type="radio" name="pin1" value="off" > off<br>
+            <%else%>
+            <input type="radio" name="pin1" value="on" > on
+            <input type="radio" name="pin1" value="off" checked> off<br>
+
+      <%end%>
+        </li>
+
+
+      <li>
+        Pin2:
+        <%if params[:pin2].to_s.eql?"on"%>
+            <input type="radio" name="pin2" value="on" checked> on
+            <input type="radio" name="pin2" value="off" > off<br>
+        <%else%>
+            <input type="radio" name="pin2" value="on" > on
+            <input type="radio" name="pin2" value="off" checked> off<br>
+
+        <%end%>
+      </li>
+
+
+      <li>
+        Pin3:
+        <%if params[:pin3].to_s.eql?"on"%>
+            <input type="radio" name="pin3" value="on" checked> on
+            <input type="radio" name="pin3" value="off" > off<br>
+        <%else%>
+            <input type="radio" name="pin3" value="on" > on
+            <input type="radio" name="pin3" value="off" checked> off<br>
+
+        <%end%> </li>
+
+
+      <li>
+        Pin4:<%if params[:pin4].to_s.eql?"on"%>
+            <input type="radio" name="pin4" value="on" checked> on
+            <input type="radio" name="pin4" value="off" > off<br>
+        <%else%>
+            <input type="radio" name="pin4" value="on" > on
+            <input type="radio" name="pin4" value="off" checked> off<br>
+
+        <%end%>
+      </li>
+    </ul>
+
+
+    <input type="submit" value="Submit">
+    <form action="/pages/index" method="post">
+
+
+  </form>
+
+    <% if params[:pin1].to_s.eql?"on"%>
+        <%@checks.pin1=1%>
+        <%=@checks.pin1%>
+        <%@checks.save%>
+    <%else%>
+        <%@checks.pin1=0%>
+        <%=@checks.pin1%>
+        <%@checks.save%>
+  <%end%>
+
+
+    <% if params[:pin2].to_s.eql?"on"%>
+        <%@checks.pin2=1%>
+        <%=@checks.pin2%>
+        <%@checks.save%>
+    <%else%>
+        <%@checks.pin2=0%>
+        <%=@checks.pin2%>
+        <%@checks.save%>
+    <%end%>
+
+
+
+    <% if params[:pin3].to_s.eql?"on"%>
+        <%@checks.pin3=1%>
+        <%=@checks.pin3%>
+        <%@checks.save%>
+    <%else%>
+        <%@checks.pin3=0%>
+        <%=@checks.pin3%>
+        <%@checks.save%>
+    <%end%>
+
+
+    <% if params[:pin4].to_s.eql?"on"%>
+        <%@checks.pin4=1%>
+        <%=@checks.pin4%>
+        <%@checks.save%>
+    <%else%>
+        <%@checks.pin4=0%>
+        <%=@checks.pin4%>
+        <%@checks.save%>
+    <%end%>
+
+
+
+  <%end%>
+

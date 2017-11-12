@@ -1,0 +1,47 @@
+<p id="notice"><%= notice %></p>
+<% if user_signed_in? %>
+<h1>
+    Hello <%= current_user.email%>
+    </h1>
+
+
+    <h1>Switches</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Pin1</th>
+      <th>Pin2</th>
+      <th>Pin3</th>
+      <th>Pin4</th>
+      <th>P1value</th>
+      <th>P2value</th>
+      <th>P3value</th>
+      <th>P4value</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @switches.each do |switch| %>
+      <tr>
+        <td><%= switch.pin1 %></td>
+        <td><%= switch.pin2 %></td>
+        <td><%= switch.pin3 %></td>
+        <td><%= switch.pin4 %></td>
+        <td><%= switch.p1value %></td>
+        <td><%= switch.p2value %></td>
+        <td><%= switch.p3value %></td>
+        <td><%= switch.p4value %></td>
+        <td><%= link_to 'Show', switch %></td>
+        <td><%= link_to 'Edit', edit_switch_path(switch) %></td>
+        <td><%= link_to 'Destroy', switch, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Switch', new_switch_path %>
+<%end%>

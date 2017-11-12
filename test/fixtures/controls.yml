@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  pin1: false
+  pin2: false
+  pin3: false
+  pin4: false
+
+two:
+  title: MyString
+  pin1: false
+  pin2: false
+  pin3: false
+  pin4: false

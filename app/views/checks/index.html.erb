@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Checks</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Pin1</th>
+      <th>Pin2</th>
+      <th>Pin3</th>
+      <th>Pin4</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @checks.each do |check| %>
+      <tr>
+        <td><%= check.pin1 %></td>
+        <td><%= check.pin2 %></td>
+        <td><%= check.pin3 %></td>
+        <td><%= check.pin4 %></td>
+        <td><%= link_to 'Show', check %></td>
+        <td><%= link_to 'Edit', edit_check_path(check) %></td>
+        <td><%= link_to 'Destroy', check, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+<%if @checks.nil? %>
+<%= link_to 'New Check', new_check_path %>
+<%end%>

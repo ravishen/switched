@@ -1,0 +1,18 @@
+<%= simple_form_for(@switch) do |f| %>
+  <%= f.error_notification %>
+
+  <div class="form-inputs">
+    <%= f.input :pin1 %>
+    <%= f.input :pin2 %>
+    <%= f.input :pin3 %>
+    <%= f.input :pin4 %>
+    <%= f.input :p1value %>
+    <%= f.input :p2value %>
+    <%= f.input :p3value %>
+    <%= f.input :p4value %>
+  </div>
+
+  <div class="form-actions">
+    <%= f.button :submit %>
+  </div>
+<% end %>
