@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7489081f-14b4-4fbb-b2c5-7da6131ca75c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/devise/sessions/new.html.erb" afterPath="$PROJECT_DIR$/app/views/devise/sessions/new.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/pages/home.html.erb" afterPath="$PROJECT_DIR$/app/views/pages/home.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/pages/index.html.erb" afterPath="$PROJECT_DIR$/app/views/pages/index.html.erb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,14 +22,14 @@
       <file leaf-file-name="index.html.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/pages/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="17" column="9" lean-forward="false" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+            <state relative-caret-position="60">
+              <caret line="3" column="30" lean-forward="true" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="new.html.erb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="new.html.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/devise/sessions/new.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="460">
@@ -47,11 +49,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.html.erb" pinned="false" current-in-tab="false">
+      <file leaf-file-name="home.html.erb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/pages/home.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="9" column="20" lean-forward="false" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+            <state relative-caret-position="220">
+              <caret line="11" column="18" lean-forward="false" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
               <folding>
                 <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h1#0;n#div#1;n#div#0;n#!!top" expanded="true" />
@@ -163,10 +165,10 @@
         <option value="$PROJECT_DIR$/app/controllers/pages_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" />
-        <option value="$PROJECT_DIR$/app/views/pages/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/devise/shared/_links.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/pages/home.html.erb" />
         <option value="$PROJECT_DIR$/app/views/devise/sessions/new.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/pages/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/pages/home.html.erb" />
       </list>
     </option>
   </component>
@@ -536,7 +538,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="home&#9;FILE&#9;file:///home/shen/RubymineProjects/test01/app/views/pages/home.html.erb&#10;ap&#9;FILE&#9;file:///home/shen/RubymineProjects/test01/app/views/layouts/application.html.erb&#10;cu&#9;FILE&#9;file:///home/shen/RubymineProjects/test01/app/assets/stylesheets/custom.css.scss&#10;hoe&#9;FILE&#9;file:///home/shen/RubymineProjects/test01/app/views/pages/home.html.erb&#10;app&#9;FILE&#9;file:///home/shen/RubymineProjects/test01/app/views/layouts/application.html.erb&#10;custo&#9;FILE&#9;file:///home/shen/RubymineProjects/test01/app/assets/stylesheets/custom.css.scss&#10;gem&#9;FILE&#9;file:///home/shen/RubymineProjects/test01/Gemfile&#10;contro&#9;FILE&#9;file:///home/shen/RubymineProjects/test01/app/controllers/pages_controller.rb&#10;ge&#9;FILE&#9;file:///home/shen/RubymineProjects/test01/Gemfile&#10;routes&#9;FILE&#9;file:///home/shen/RubymineProjects/test01/config/routes.rb&#10;pages/in&#9;FILE&#9;file:///home/shen/RubymineProjects/test01/app/views/pages/index.html.erb&#10;develop&#9;FILE&#9;file:///home/shen/RubymineProjects/test01/config/environments/development.rb&#10;f&#9;FILE&#9;file:///home/shen/RubymineProjects/test01/Gemfile&#10;de&#9;FILE&#9;file:///home/shen/RubymineProjects/test01/config/initializers/devise.rb&#10;devise.r&#9;FILE&#9;file:///home/shen/RubymineProjects/test01/config/initializers/devise.rb&#10;production.r&#9;FILE&#9;file:///home/shen/RubymineProjects/test01/config/environments/production.rb&#10;page&#9;FILE&#9;file:///home/shen/RubymineProjects/test01/app/controllers/pages_controller.rb&#10;in&#9;FILE&#9;file:///home/shen/RubymineProjects/test01/app/views/pages/index.html.erb&#10;pag&#9;FILE&#9;file:///home/shen/RubymineProjects/test01/app/controllers/pages_controller.rb&#10;index&#9;FILE&#9;file:///home/shen/RubymineProjects/test01/app/views/pages/index.html.erb&#10;gemfil&#9;FILE&#9;file:///home/shen/RubymineProjects/test01/Gemfile&#10;rout&#9;FILE&#9;file:///home/shen/RubymineProjects/test01/config/routes.rb&#10;home.&#9;FILE&#9;file:///home/shen/RubymineProjects/test01/app/views/pages/home.html.erb&#10;application.&#9;FILE&#9;file:///home/shen/RubymineProjects/test01/app/assets/stylesheets/application.css" />
+    <property name="SearchEverywhereHistoryKey" value="home&#9;FILE&#9;file:///home/shen/RubymineProjects/test01/app/views/pages/home.html.erb&#10;index&#9;FILE&#9;file:///home/shen/RubymineProjects/test01/app/views/checks/index.html.erb&#10;inde&#9;FILE&#9;file:///home/shen/RubymineProjects/test01/app/views/pages/index.html.erb&#10;ap&#9;FILE&#9;file:///home/shen/RubymineProjects/test01/app/views/layouts/application.html.erb&#10;cu&#9;FILE&#9;file:///home/shen/RubymineProjects/test01/app/assets/stylesheets/custom.css.scss&#10;hoe&#9;FILE&#9;file:///home/shen/RubymineProjects/test01/app/views/pages/home.html.erb&#10;app&#9;FILE&#9;file:///home/shen/RubymineProjects/test01/app/views/layouts/application.html.erb&#10;custo&#9;FILE&#9;file:///home/shen/RubymineProjects/test01/app/assets/stylesheets/custom.css.scss&#10;gem&#9;FILE&#9;file:///home/shen/RubymineProjects/test01/Gemfile&#10;contro&#9;FILE&#9;file:///home/shen/RubymineProjects/test01/app/controllers/pages_controller.rb&#10;ge&#9;FILE&#9;file:///home/shen/RubymineProjects/test01/Gemfile&#10;routes&#9;FILE&#9;file:///home/shen/RubymineProjects/test01/config/routes.rb&#10;pages/in&#9;FILE&#9;file:///home/shen/RubymineProjects/test01/app/views/pages/index.html.erb&#10;develop&#9;FILE&#9;file:///home/shen/RubymineProjects/test01/config/environments/development.rb&#10;f&#9;FILE&#9;file:///home/shen/RubymineProjects/test01/Gemfile&#10;de&#9;FILE&#9;file:///home/shen/RubymineProjects/test01/config/initializers/devise.rb&#10;devise.r&#9;FILE&#9;file:///home/shen/RubymineProjects/test01/config/initializers/devise.rb&#10;production.r&#9;FILE&#9;file:///home/shen/RubymineProjects/test01/config/environments/production.rb&#10;page&#9;FILE&#9;file:///home/shen/RubymineProjects/test01/app/controllers/pages_controller.rb&#10;in&#9;FILE&#9;file:///home/shen/RubymineProjects/test01/app/views/pages/index.html.erb&#10;pag&#9;FILE&#9;file:///home/shen/RubymineProjects/test01/app/controllers/pages_controller.rb&#10;gemfil&#9;FILE&#9;file:///home/shen/RubymineProjects/test01/Gemfile&#10;rout&#9;FILE&#9;file:///home/shen/RubymineProjects/test01/config/routes.rb&#10;home.&#9;FILE&#9;file:///home/shen/RubymineProjects/test01/app/views/pages/home.html.erb&#10;application.&#9;FILE&#9;file:///home/shen/RubymineProjects/test01/app/assets/stylesheets/application.css" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -846,12 +848,12 @@
       <workItem from="1510212722560" duration="9929000" />
       <workItem from="1510390747448" duration="7174000" />
       <workItem from="1510415571094" duration="5772000" />
-      <workItem from="1510487632728" duration="8917000" />
+      <workItem from="1510487632728" duration="10184000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39877000" />
+    <option name="totallyTimeSpent" value="41144000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="56" y="-11" width="1865" height="1035" extended-state="6" />
@@ -1209,26 +1211,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/checks/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="22" column="5" lean-forward="false" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/switches/_switch.json.jbuilder">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/pages/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="17" column="9" lean-forward="false" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
           <folding />
         </state>
       </provider>
@@ -1264,24 +1250,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/devise/sessions/new.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="23" column="99" lean-forward="false" selection-start-line="23" selection-start-column="99" selection-end-line="23" selection-end-column="99" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/checks/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="22" column="5" lean-forward="false" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/pages/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="30" lean-forward="true" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/pages/home.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="20" lean-forward="false" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+        <state relative-caret-position="220">
+          <caret line="11" column="18" lean-forward="false" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
           <folding>
             <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h1#0;n#div#1;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h2#0;n#div#1;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h3#0;n#div#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/devise/sessions/new.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="23" column="99" lean-forward="false" selection-start-line="23" selection-start-column="99" selection-end-line="23" selection-end-column="99" />
-          <folding />
         </state>
       </provider>
     </entry>

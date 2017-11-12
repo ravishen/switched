@@ -15,7 +15,7 @@ Hello <%= current_user.email%>
       <li>
         Pin1:
         <%if params[:pin1].to_s.eql?"on"%>
-        d<input type="radio" name="pin1" value="on" checked> on
+        <input type="radio" name="pin1" value="on" checked> on
         <input type="radio" name="pin1" value="off" > off<br>
             <%else%>
             <input type="radio" name="pin1" value="on" > on
