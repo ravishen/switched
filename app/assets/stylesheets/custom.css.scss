@@ -1,6 +1,7 @@
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
 * {
   margin: 0;
   padding: 0;
@@ -8,15 +9,6 @@
 
 
 #logo {
-  margin-bottom: 10px;
-  float: left;
-  height: 80px;
-  width: 50%;
-
-  font-size: 3em;
-  padding-top: 6px;
-  text-transform: uppercase;
-  font-weight: bold;
 
 }
 
@@ -41,4 +33,15 @@ margin-left: 500px;
 
 .jumbotronhead h1{
   margin-left: 100x;
+}
+
+.container-fluid li{
+  display: inline;
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.btn:visited {
+  color: #FFF
 }

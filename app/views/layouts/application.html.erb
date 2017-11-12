@@ -12,32 +12,34 @@
 
   <header class="navbar navbar-fixed-top navbar-default ">
     <div class="container-fluid ">
-      <div class="row ">
-      <div class="navitem col-md-4">
-        <%= link_to "SWITCHED", "", class:"btn btn-primary btn-lg btn-block btn-huge", id: "logo" %>
-      </div>
-        <div class="col-md-4">
 
-        </div>
-      <div class="navitem col-md-1">
+      <div class="navitem ">
+        <ul  style="  list-style-type: none;">
+        <li ><%= link_to "SWITCHED", "", class:"btn btn-info", id: "logo" %>
+      </div></li>
+      <div class="navitem ">
 
         <% if user_signed_in? %>
-            <%= link_to "Log Out",  "/users/sign_out" , class:"btn btn-primary btn-lg btn-block btn-huge", id: "logout", method: :delete %>
+       <li style="float: right"><%= link_to "Log Out",  "/users/sign_out" , class:"btn btn-primary ", id: "logout", method: :delete %></li>
 
       <% else%>
-       <%= link_to "Log In",  "/users/sign_in" , class:"btn btn-primary btn-lg btn-block btn-huge", id: "login" %>
+      <li style="float: right"> <%= link_to "Log In",  "/users/sign_in" , class:"btn btn-primary ", id: "login" %></li>
             <%end%>
       </div>
-        <div class="navitem col-md-1">
-      <%= link_to "HOME", "/home", class:"btn btn-primary btn-lg btn-block btn-huge", id: "home" %>
+        <div class="navitem">
+     <li style="float: right"> <%= link_to "HOME", "/home", class:"btn btn-primary ", id: "home" %> </li>
     </div>
-      <div class="navitem col-md-1">
-        <%= link_to "KillSwitch", "", class:"btn btn-primary btn-lg btn-block btn-huge", id: "killswitch" %>
+      <div class="navitem ">
+        <li style="float: right">
+        <%= link_to "KillSwitch", "", class:"btn btn-primary", id: "killswitch" %>
+        </li>
       </div>
-      <div class="navitem col-md-1">
-        <%= link_to "Setup", "", class:"btn btn-primary btn-lg btn-block btn-huge", id: "setup" %>
+      <div class="navitem ">
+        <li style="float: right"><%= link_to "Setup", "", class:"btn btn-primary ", id: "setup" %>
+        </li>
+          </ul>
       </div>
-      </div>
+
       </div>
   </header>
 
