@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7489081f-14b4-4fbb-b2c5-7da6131ca75c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.generators" afterPath="$PROJECT_DIR$/.idea/.generators" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/test01.iml" afterPath="$PROJECT_DIR$/.idea/test01.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/pages_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/pages_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/pages/index.html.erb" afterPath="$PROJECT_DIR$/app/views/pages/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environments/production.rb" afterPath="$PROJECT_DIR$/config/environments/production.rb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,11 +17,21 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html.erb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/pages/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="776">
               <caret line="57" column="42" lean-forward="false" selection-start-line="57" selection-start-column="42" selection-end-line="57" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="production.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="291">
+              <caret line="30" column="30" lean-forward="false" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -83,16 +86,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-575">
               <caret line="6" column="14" lean-forward="false" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/operators/index.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -158,6 +151,7 @@
         <option value="$PROJECT_DIR$/app/views/checks/index.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/pages_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/pages/index.html.erb" />
+        <option value="$PROJECT_DIR$/config/environments/production.rb" />
       </list>
     </option>
   </component>
@@ -383,7 +377,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///home/shen/RubymineProjects/test01/app/views/pages/index.html.erb&#10;page&#9;FILE&#9;file:///home/shen/RubymineProjects/test01/app/controllers/pages_controller.rb&#10;in&#9;FILE&#9;file:///home/shen/RubymineProjects/test01/app/views/pages/index.html.erb&#10;pag&#9;FILE&#9;file:///home/shen/RubymineProjects/test01/app/controllers/pages_controller.rb&#10;index&#9;FILE&#9;file:///home/shen/RubymineProjects/test01/app/views/pages/index.html.erb&#10;gemfil&#9;FILE&#9;file:///home/shen/RubymineProjects/test01/Gemfile&#10;rout&#9;FILE&#9;file:///home/shen/RubymineProjects/test01/config/routes.rb&#10;gem&#9;FILE&#9;file:///home/shen/RubymineProjects/test01/Gemfile&#10;home.&#9;FILE&#9;file:///home/shen/RubymineProjects/test01/app/views/pages/home.html.erb&#10;application.&#9;FILE&#9;file:///home/shen/RubymineProjects/test01/app/assets/stylesheets/application.css" />
+    <property name="SearchEverywhereHistoryKey" value="production.r&#9;FILE&#9;file:///home/shen/RubymineProjects/test01/config/environments/production.rb&#10;page&#9;FILE&#9;file:///home/shen/RubymineProjects/test01/app/controllers/pages_controller.rb&#10;in&#9;FILE&#9;file:///home/shen/RubymineProjects/test01/app/views/pages/index.html.erb&#10;pag&#9;FILE&#9;file:///home/shen/RubymineProjects/test01/app/controllers/pages_controller.rb&#10;index&#9;FILE&#9;file:///home/shen/RubymineProjects/test01/app/views/pages/index.html.erb&#10;gemfil&#9;FILE&#9;file:///home/shen/RubymineProjects/test01/Gemfile&#10;rout&#9;FILE&#9;file:///home/shen/RubymineProjects/test01/config/routes.rb&#10;gem&#9;FILE&#9;file:///home/shen/RubymineProjects/test01/Gemfile&#10;home.&#9;FILE&#9;file:///home/shen/RubymineProjects/test01/app/views/pages/home.html.erb&#10;application.&#9;FILE&#9;file:///home/shen/RubymineProjects/test01/app/assets/stylesheets/application.css" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -697,7 +691,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26770000" />
+    <option name="totallyTimeSpent" value="27399000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="56" y="-11" width="1865" height="1035" extended-state="6" />
@@ -764,13 +758,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/triggers/_form.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/triggers/_trigger.json.jbuilder">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1166,6 +1153,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="776">
           <caret line="57" column="42" lean-forward="false" selection-start-line="57" selection-start-column="42" selection-end-line="57" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="30" column="30" lean-forward="false" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
           <folding />
         </state>
       </provider>
