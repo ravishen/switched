@@ -112,8 +112,9 @@ Hello <%= current_user.email%>
         <%=@checks.pin4%>
         <%@checks.save%>
     <%end%>
+    
+    <%@checks.combination=@checks.pin1.to_s+@checks.pin2.to_s+@checks.pin3.to_s+@checks.pin4.to_s%>
 
 
 
-  <%end%>
-
+<%end%>

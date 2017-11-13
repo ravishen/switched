@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20171112093340) do
+ActiveRecord::Schema.define(version: 20171113085553) do
 
   create_table "checks", force: :cascade do |t|
     t.integer "pin1"
@@ -19,6 +19,8 @@ ActiveRecord::Schema.define(version: 20171112093340) do
     t.integer "pin4"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.integer "control"
+    t.string "combination"
   end
 
   create_table "controls", force: :cascade do |t|
