@@ -10,7 +10,9 @@ class ChecksController < ApplicationController
   # GET /checks/1
   # GET /checks/1.json
   def show
+    request.headers["Content-Type"] # => "application/json"
     result =Check.find(params[:id]).combination.to_s
+
     response.headers['HEADER NAME'] = result
 
     response.headers['Access-Control-Allow-Origin'] = '*'
