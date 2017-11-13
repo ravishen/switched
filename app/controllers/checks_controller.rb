@@ -10,7 +10,8 @@ class ChecksController < ApplicationController
   # GET /checks/1
   # GET /checks/1.json
   def show
-    response.headers['HEADER NAME'] = Check.find(current_user.id).combination
+    result =Check.find(current_user.id).combination.to_s
+    response.headers['HEADER NAME'] =result
 
     response.headers['Access-Control-Allow-Origin'] = '*'
   end
