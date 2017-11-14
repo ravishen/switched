@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7489081f-14b4-4fbb-b2c5-7da6131ca75c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/pages_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/pages_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/pages/setup.html.erb" afterPath="$PROJECT_DIR$/app/views/pages/setup.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -103,8 +100,8 @@
       <file leaf-file-name="pages_controller.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/pages_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="700">
-              <caret line="35" column="3" lean-forward="false" selection-start-line="35" selection-start-column="3" selection-end-line="35" selection-end-column="3" />
+            <state relative-caret-position="600">
+              <caret line="30" column="15" lean-forward="false" selection-start-line="30" selection-start-column="15" selection-end-line="30" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -924,12 +921,12 @@
       <workItem from="1510653861338" duration="65000" />
       <workItem from="1510654054775" duration="11433000" />
       <workItem from="1510667429917" duration="2917000" />
-      <workItem from="1510679298300" duration="1131000" />
+      <workItem from="1510679298300" duration="1866000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60501000" />
+    <option name="totallyTimeSpent" value="61236000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="56" y="-11" width="1865" height="1035" extended-state="6" />
@@ -1338,8 +1335,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/pages_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="35" column="3" lean-forward="false" selection-start-line="35" selection-start-column="3" selection-end-line="35" selection-end-column="3" />
+        <state relative-caret-position="600">
+          <caret line="30" column="15" lean-forward="false" selection-start-line="30" selection-start-column="15" selection-end-line="30" selection-end-column="15" />
           <folding />
         </state>
       </provider>
