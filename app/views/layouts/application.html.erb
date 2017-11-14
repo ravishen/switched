@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Test01</title>
+    <title>Switched 	&reg;</title>
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
@@ -15,7 +15,7 @@
 
       <div class="navitem ">
         <ul  style="  list-style-type: none;">
-        <li ><%= link_to "SWITCHED", "", class:"btn btn-info", id: "logo" %>
+        <li ><%= link_to "SWITCHED", "", class:"btn btn-danger  btn-primary btn-lg", id: "logo" %>
       </div></li>
       <div class="navitem ">
 
@@ -37,6 +37,12 @@
       <div class="navitem ">
         <li style="float: right"><%= link_to "Setup", "/setup", class:"btn btn-primary ", id: "setup" %>
         </li>
+
+        <% if user_signed_in? %>
+
+        <li style="float: right"><%= link_to current_user.email, "/index", class:"btn btn-info", id: "index2" %>
+        </li>
+        <%end%>
           </ul>
       </div>
 
