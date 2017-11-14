@@ -2,8 +2,11 @@
   <% if user_signed_in? %>
 
 Hello <%= current_user.email%>
-      <%= current_user.id%>
+
+
 </h1>
+
+      <h2>Your Unique HashKey :"<%=@checks.hashkey%>"</h2>
 <%if @checks.nil?%>
   <%= link_to "proceed", checks_path(current_user.id)%>
 

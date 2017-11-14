@@ -11,7 +11,7 @@ class ChecksController < ApplicationController
   # GET /checks/1.json
   def show
     request.headers["Content-Type"] # => "application/json"
-    result =Check.find(params[:id]).combination.to_s
+    result =Check.friendly.find(params[:id]).combination.to_s
 
     response.headers['HEADER NAME'] = result
 
@@ -71,11 +71,11 @@ class ChecksController < ApplicationController
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_check
-      @check = Check.find(params[:id])
+      @check = Check.friendly.find(params[:id])
     end
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def check_params
-      params.require(:check).permit(:pin1, :pin2, :pin3, :pin4)
+      params.require(:check).permit(:pin1, :pin2, :pin3, :pin4,:slug)
     end
 end
