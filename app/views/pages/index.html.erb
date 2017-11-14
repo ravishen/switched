@@ -1,4 +1,6 @@
-<h1>
+<div class="center jumbotron container-fluid jumbotronbody" style="margin: auto auto">
+
+<h1 style="text-align: center">
   <% if user_signed_in? %>
 
 Hello <%= current_user.email%>
@@ -6,13 +8,10 @@ Hello <%= current_user.email%>
 
 </h1>
       <%if(!@checks.hashkey.nil?)%>
-      <h2>  Your Unique HashKey :"<%=@checks.hashkey%>"</h2><%end%>
-<%if @checks.nil?%>
-  <%= link_to "proceed", checks_path(current_user.id)%>
-
-<%end%>
+      <h2 style="text-align: center">  Your Unique HashKey :"<%=@checks.hashkey%>"</h2><%end%>
 
   <form>
+<!--
     <ul>
 
       <li>
@@ -65,54 +64,103 @@ Hello <%= current_user.email%>
       </li>
     </ul>
 
+-->
+    <div id="toggles" style="margin: auto auto">
 
-    <input type="submit" value="Submit">
-    <form action="/pages/index" method="post">
+
+      <%if params[:checkbox1].to_s.eql?"on"%>
+      <input type="checkbox" name="checkbox1" id="checkbox1" class="ios-toggle" value="on" checked/>
+      <label for="checkbox1" class="checkbox-label" data-off="Pin1 off" data-on="Pin1 on"></label>
+      <%else%>
+          <input type="checkbox" name="checkbox1" id="checkbox1" class="ios-toggle" value="on" />
+          <label for="checkbox1" class="checkbox-label" data-off="Pin1 off" data-on="Pin1 on"></label>
+
+    <%end%>
+
+      <%if params[:checkbox2].to_s.eql?"on"%>
+
+      <input type="checkbox" name="checkbox2" id="checkbox2" class="ios-toggle" value="on" checked />
+      <label for="checkbox2" class="checkbox-label" data-off="Pin2 off" data-on="Pin2 on"></label>
+
+      <%else%>
+          <input type="checkbox" name="checkbox2" id="checkbox2" class="ios-toggle" value="on" />
+          <label for="checkbox2" class="checkbox-label" data-off="Pin2 off" data-on="Pin2 on"></label>
+
+      <%end%>
+
+      <%if params[:checkbox3].to_s.eql?"on"%>
+
+      <input type="checkbox" name="checkbox3" id="checkbox3" class="ios-toggle" value="on" checked/>
+      <label for="checkbox3" class="checkbox-label" data-off="Pin3 off" data-on="Pin3 on"></label>
+
+      <%else%>
+          <input type="checkbox" name="checkbox3" id="checkbox3" class="ios-toggle" value="on" />
+          <label for="checkbox3" class="checkbox-label" data-off="Pin3 off" data-on="Pin3 on"></label>
+
+
+
+      <%end%>
+
+      <%if params[:checkbox4].to_s.eql?"on"%>
+
+      <input type="checkbox" name="checkbox4" id="checkbox4" class="ios-toggle" value="on"  checked/>
+      <label for="checkbox4" class="checkbox-label" data-off="Pin4 off" data-on="Pin4 on"></label>
+
+      <%else%>
+          <input type="checkbox" name="checkbox4" id="checkbox4" class="ios-toggle" value="on" />
+          <label for="checkbox4" class="checkbox-label" data-off="Pin4 off" data-on="Pin4 on"></label>
+
+
+      <%end%>
+      <input type="submit" value="Submit" style="text-align: center" class="btn btn-warning ">
+      <form action="/pages/index" method="post">
+
+      </form>
+
+    </div>
+
 
 
   </form>
 
-    <% if params[:pin1].to_s.eql?"on"%>
+    <% if params[:checkbox1].to_s.eql?"on"%>
         <%@checks.pin1=1%>
-        <%=@checks.pin1%>
         <%@checks.save%>
     <%else%>
         <%@checks.pin1=0%>
-        <%=@checks.pin1%>
+
         <%@checks.save%>
   <%end%>
 
 
-    <% if params[:pin2].to_s.eql?"on"%>
+    <% if params[:checkbox2].to_s.eql?"on"%>
         <%@checks.pin2=1%>
-        <%=@checks.pin2%>
         <%@checks.save%>
     <%else%>
         <%@checks.pin2=0%>
-        <%=@checks.pin2%>
+
         <%@checks.save%>
     <%end%>
 
 
 
-    <% if params[:pin3].to_s.eql?"on"%>
+    <% if params[:checkbox3].to_s.eql?"on"%>
         <%@checks.pin3=1%>
-        <%=@checks.pin3%>
         <%@checks.save%>
     <%else%>
         <%@checks.pin3=0%>
-        <%=@checks.pin3%>
+
         <%@checks.save%>
     <%end%>
 
 
-    <% if params[:pin4].to_s.eql?"on"%>
+    <% if params[:checkbox4].to_s.eql?"on"%>
         <%@checks.pin4=1%>
-        <%=@checks.pin4%>
+
         <%@checks.save%>
     <%else%>
         <%@checks.pin4=0%>
-        <%=@checks.pin4%>
+
         <%@checks.save%>
     <%end%>
     
@@ -121,3 +169,6 @@ Hello <%= current_user.email%>
 
 
 <%end%>
+
+
+  </div>
