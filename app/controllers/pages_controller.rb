@@ -6,11 +6,11 @@ class PagesController < ApplicationController
 
   def index
     if user_signed_in?&&Check.all.size>=current_user.id
-      @checks=Check.find(current_user.id)
+      @checks2=Check.find(current_user.id)
 
-      if(@checks.hashkey.nil?)
-      @checks.hashkey=SecureRandom.hex(13)
-      @checks.save
+      if(@checks2.hashkey.nil?)
+      @checks2.hashkey=SecureRandom.hex(13)
+      @checks2.save
 
     end
     end

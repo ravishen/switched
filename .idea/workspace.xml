@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7489081f-14b4-4fbb-b2c5-7da6131ca75c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/pages/index.html.erb" afterPath="$PROJECT_DIR$/app/views/pages/index.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/pages_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/pages_controller.rb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,11 +17,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html.erb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/pages/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="8" column="30" lean-forward="true" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+            <state relative-caret-position="140">
+              <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -82,11 +82,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pages_controller.rb" pinned="false" current-in-tab="false">
+      <file leaf-file-name="pages_controller.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/pages_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+            <state relative-caret-position="140">
+              <caret line="7" column="47" lean-forward="false" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -158,12 +158,12 @@
         <option value="$PROJECT_DIR$/app/views/devise/sessions/new.html.erb" />
         <option value="$PROJECT_DIR$/app/views/pages/home.html.erb" />
         <option value="$PROJECT_DIR$/db/schema.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/pages_controller.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/db/migrate/20171114110515_create_friendly_id_slugs.rb" />
         <option value="$PROJECT_DIR$/app/models/check.rb" />
         <option value="$PROJECT_DIR$/app/controllers/checks_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/pages/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/pages_controller.rb" />
       </list>
     </option>
   </component>
@@ -587,7 +587,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="pa&#9;FILE&#9;file:///home/shen/RubymineProjects/test01/app/controllers/pages_controller.rb&#10;index&#9;FILE&#9;file:///home/shen/RubymineProjects/test01/app/views/pages/index.html.erb&#10;routes&#9;FILE&#9;file:///home/shen/RubymineProjects/test01/config/routes.rb&#10;chec&#9;FILE&#9;file:///home/shen/RubymineProjects/test01/app/controllers/checks_controller.rb&#10;ge&#9;FILE&#9;file:///home/shen/RubymineProjects/test01/Gemfile&#10;in&#9;FILE&#9;file:///home/shen/RubymineProjects/test01/app/views/pages/index.html.erb&#10;sign_up&#9;null&#9;null&#10;pages&#9;FILE&#9;file:///home/shen/RubymineProjects/test01/app/controllers/pages_controller.rb&#10;index/&#9;FILE&#9;file:///home/shen/RubymineProjects/test01/app/views/pages/index.html.erb&#10;inde&#9;FILE&#9;file:///home/shen/RubymineProjects/test01/app/views/switches/index.html.erb&#10;header.r&#9;FILE&#9;file:///usr/lib/ruby/2.3.0/net/http/header.rb&#10;home&#9;FILE&#9;file:///home/shen/RubymineProjects/test01/app/views/pages/home.html.erb&#10;ap&#9;FILE&#9;file:///home/shen/RubymineProjects/test01/app/views/layouts/application.html.erb&#10;cu&#9;FILE&#9;file:///home/shen/RubymineProjects/test01/app/assets/stylesheets/custom.css.scss&#10;hoe&#9;FILE&#9;file:///home/shen/RubymineProjects/test01/app/views/pages/home.html.erb&#10;app&#9;FILE&#9;file:///home/shen/RubymineProjects/test01/app/views/layouts/application.html.erb&#10;custo&#9;FILE&#9;file:///home/shen/RubymineProjects/test01/app/assets/stylesheets/custom.css.scss&#10;gem&#9;FILE&#9;file:///home/shen/RubymineProjects/test01/Gemfile&#10;contro&#9;FILE&#9;file:///home/shen/RubymineProjects/test01/app/controllers/pages_controller.rb&#10;pages/in&#9;FILE&#9;file:///home/shen/RubymineProjects/test01/app/views/pages/index.html.erb&#10;develop&#9;FILE&#9;file:///home/shen/RubymineProjects/test01/config/environments/development.rb&#10;f&#9;FILE&#9;file:///home/shen/RubymineProjects/test01/Gemfile&#10;de&#9;FILE&#9;file:///home/shen/RubymineProjects/test01/config/initializers/devise.rb&#10;devise.r&#9;FILE&#9;file:///home/shen/RubymineProjects/test01/config/initializers/devise.rb&#10;production.r&#9;FILE&#9;file:///home/shen/RubymineProjects/test01/config/environments/production.rb&#10;page&#9;FILE&#9;file:///home/shen/RubymineProjects/test01/app/controllers/pages_controller.rb&#10;pag&#9;FILE&#9;file:///home/shen/RubymineProjects/test01/app/controllers/pages_controller.rb&#10;gemfil&#9;FILE&#9;file:///home/shen/RubymineProjects/test01/Gemfile&#10;rout&#9;FILE&#9;file:///home/shen/RubymineProjects/test01/config/routes.rb&#10;home.&#9;FILE&#9;file:///home/shen/RubymineProjects/test01/app/views/pages/home.html.erb&#10;application.&#9;FILE&#9;file:///home/shen/RubymineProjects/test01/app/assets/stylesheets/application.css" />
+    <property name="SearchEverywhereHistoryKey" value="pag&#9;FILE&#9;file:///home/shen/RubymineProjects/test01/app/controllers/pages_controller.rb&#10;pa&#9;FILE&#9;file:///home/shen/RubymineProjects/test01/app/controllers/pages_controller.rb&#10;index&#9;FILE&#9;file:///home/shen/RubymineProjects/test01/app/views/pages/index.html.erb&#10;routes&#9;FILE&#9;file:///home/shen/RubymineProjects/test01/config/routes.rb&#10;chec&#9;FILE&#9;file:///home/shen/RubymineProjects/test01/app/controllers/checks_controller.rb&#10;ge&#9;FILE&#9;file:///home/shen/RubymineProjects/test01/Gemfile&#10;in&#9;FILE&#9;file:///home/shen/RubymineProjects/test01/app/views/pages/index.html.erb&#10;sign_up&#9;null&#9;null&#10;pages&#9;FILE&#9;file:///home/shen/RubymineProjects/test01/app/controllers/pages_controller.rb&#10;index/&#9;FILE&#9;file:///home/shen/RubymineProjects/test01/app/views/pages/index.html.erb&#10;inde&#9;FILE&#9;file:///home/shen/RubymineProjects/test01/app/views/switches/index.html.erb&#10;header.r&#9;FILE&#9;file:///usr/lib/ruby/2.3.0/net/http/header.rb&#10;home&#9;FILE&#9;file:///home/shen/RubymineProjects/test01/app/views/pages/home.html.erb&#10;ap&#9;FILE&#9;file:///home/shen/RubymineProjects/test01/app/views/layouts/application.html.erb&#10;cu&#9;FILE&#9;file:///home/shen/RubymineProjects/test01/app/assets/stylesheets/custom.css.scss&#10;hoe&#9;FILE&#9;file:///home/shen/RubymineProjects/test01/app/views/pages/home.html.erb&#10;app&#9;FILE&#9;file:///home/shen/RubymineProjects/test01/app/views/layouts/application.html.erb&#10;custo&#9;FILE&#9;file:///home/shen/RubymineProjects/test01/app/assets/stylesheets/custom.css.scss&#10;gem&#9;FILE&#9;file:///home/shen/RubymineProjects/test01/Gemfile&#10;contro&#9;FILE&#9;file:///home/shen/RubymineProjects/test01/app/controllers/pages_controller.rb&#10;pages/in&#9;FILE&#9;file:///home/shen/RubymineProjects/test01/app/views/pages/index.html.erb&#10;develop&#9;FILE&#9;file:///home/shen/RubymineProjects/test01/config/environments/development.rb&#10;f&#9;FILE&#9;file:///home/shen/RubymineProjects/test01/Gemfile&#10;de&#9;FILE&#9;file:///home/shen/RubymineProjects/test01/config/initializers/devise.rb&#10;devise.r&#9;FILE&#9;file:///home/shen/RubymineProjects/test01/config/initializers/devise.rb&#10;production.r&#9;FILE&#9;file:///home/shen/RubymineProjects/test01/config/environments/production.rb&#10;page&#9;FILE&#9;file:///home/shen/RubymineProjects/test01/app/controllers/pages_controller.rb&#10;gemfil&#9;FILE&#9;file:///home/shen/RubymineProjects/test01/Gemfile&#10;rout&#9;FILE&#9;file:///home/shen/RubymineProjects/test01/config/routes.rb&#10;home.&#9;FILE&#9;file:///home/shen/RubymineProjects/test01/app/views/pages/home.html.erb&#10;application.&#9;FILE&#9;file:///home/shen/RubymineProjects/test01/app/assets/stylesheets/application.css" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -922,12 +922,12 @@
       <workItem from="1510520167900" duration="7000" />
       <workItem from="1510564994966" duration="976000" />
       <workItem from="1510653861338" duration="65000" />
-      <workItem from="1510654054775" duration="4788000" />
+      <workItem from="1510654054775" duration="5252000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49808000" />
+    <option name="totallyTimeSpent" value="50272000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="56" y="-11" width="1865" height="1035" extended-state="6" />
@@ -1346,18 +1346,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/pages_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/pages/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+        <state relative-caret-position="140">
+          <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/pages/index.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/pages_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="30" lean-forward="true" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+        <state relative-caret-position="140">
+          <caret line="7" column="47" lean-forward="false" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
           <folding />
         </state>
       </provider>
