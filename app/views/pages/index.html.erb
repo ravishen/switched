@@ -5,8 +5,8 @@ Hello <%= current_user.email%>
 
 
 </h1>
-
-      <h2>Your Unique HashKey :"<%=@checks.hashkey%>"</h2>
+      <%if(!@checks.hashkey.nil?)%>
+      <h2>  Your Unique HashKey :"<%=@checks.hashkey%>"</h2><%end%>
 <%if @checks.nil?%>
   <%= link_to "proceed", checks_path(current_user.id)%>
 
