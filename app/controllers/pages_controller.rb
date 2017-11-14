@@ -25,4 +25,15 @@ class PagesController < ApplicationController
 
     end
   end
+
+  def setup
+    send_file(
+        "#{Rails.root}/public/Switched.ino",
+        filename: "Switched.ino",
+        type: "application/ino"
+    )
+
+  end
+
+
 end

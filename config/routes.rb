@@ -7,5 +7,6 @@ get '/home', to: 'pages#home'
   get '/users/:id', to: 'pages#index'
   root to: "pages#index"
   root 'pages#index'
+  get '/setup', to:'pages#setup'
 
 end
