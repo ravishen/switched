@@ -19,7 +19,7 @@ ActiveRecord::Schema.define(version: 20171114110707) do
     t.integer "pin4"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.integer "control"
+    t.string "control"
     t.string "combination"
     t.string "hashkey"
     t.string "slug"
