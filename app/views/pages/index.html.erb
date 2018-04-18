@@ -8,9 +8,10 @@ Hello <%= current_user.email%>
 
 </h1>
       <%if(!@checks.hashkey.nil?)%>
-      <h2 style="text-align: center">  Your Unique HashKey :"<%=@checks.hashkey%>"</h2><%end%>
+      <h2 style="text-align: center" id="hash">  Your Unique HashKey :"<%=@checks.hashkey%>"</h2><%end%>
 
   <form>
+
 <!--
     <ul>
 
@@ -163,7 +164,7 @@ Hello <%= current_user.email%>
 
         <%@checks.save%>
     <%end%>
-    
+
     <%@checks.combination=@checks.pin1.to_s+@checks.pin2.to_s+@checks.pin3.to_s+@checks.pin4.to_s%>
 
 
