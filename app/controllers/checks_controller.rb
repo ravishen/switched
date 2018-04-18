@@ -26,6 +26,35 @@ class ChecksController < ApplicationController
 
   # GET /checks/1/edit
   def edit
+
+    if params[:pin1].present?
+      @updated_value1 = params[:pin1]
+      check = Check.friendly.find(params[:id])
+      check.pin1 = @updated_value1
+      check.save
+    end
+    if params[:pin2].present?
+      @updated_value2 = params[:pin2]
+      check = Check.friendly.find(params[:id])
+      check.pin2 = @updated_value2
+      check.save
+    end
+    if params[:pin3].present?
+      @updated_value3 = params[:pin3]
+      check = Check.friendly.find(params[:id])
+      check.pin3 = @updated_value3
+      check.save
+    end
+    if params[:pin4].present?
+      @updated_value4 = params[:pin4]
+      check = Check.friendly.find(params[:id])
+      check.pin4 = @updated_value4
+      check.save
+    end
+
+
+
+
   end
 
   # POST /checks
@@ -33,7 +62,7 @@ class ChecksController < ApplicationController
   def create
     @check = Check.new(check_params)
 
-    respond_to do |format|
+    respond_to do |format|r
       if @check.save
         format.html { redirect_to @check, notice: 'Check was successfully created.' }
         format.json { render :show, status: :created, location: @check }
